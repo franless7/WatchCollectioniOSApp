@@ -7,31 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5330073E2B337DD800328813 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330073D2B337DD800328813 /* Brand.swift */; };
 		53BAD6932B2E05F200A14761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAD6922B2E05F200A14761 /* AppDelegate.swift */; };
 		53BAD6952B2E05F200A14761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAD6942B2E05F200A14761 /* SceneDelegate.swift */; };
 		53BAD69A2B2E05F200A14761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BAD6982B2E05F200A14761 /* Main.storyboard */; };
 		53BAD69C2B2E05F400A14761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BAD69B2B2E05F400A14761 /* Assets.xcassets */; };
 		53BAD69F2B2E05F400A14761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BAD69D2B2E05F400A14761 /* LaunchScreen.storyboard */; };
-		53BAD6AB2B2E0FF100A14761 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAD6AA2B2E0FF100A14761 /* Constants.swift */; };
-		53BAD6AE2B2FA13500A14761 /* Chrono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAD6AD2B2FA13500A14761 /* Chrono.swift */; };
+		53BAD6AE2B2FA13500A14761 /* Brandname.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAD6AD2B2FA13500A14761 /* Brandname.swift */; };
 		53BAD6B32B30E8E900A14761 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAD6B22B30E8E900A14761 /* MainTabBarController.swift */; };
 		53BAD6BC2B3124C300A14761 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 53BAD6BB2B3124C300A14761 /* SDWebImage */; };
 		53BAD6BE2B3124C300A14761 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 53BAD6BD2B3124C300A14761 /* SDWebImageMapKit */; };
 		53C6321B2B35B11800B7EE1A /* WDRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6321A2B35B11800B7EE1A /* WDRequest.swift */; };
 		53C6321D2B35B24200B7EE1A /* WDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6321C2B35B24200B7EE1A /* WDService.swift */; };
 		53C6321F2B35B39000B7EE1A /* WDEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6321E2B35B39000B7EE1A /* WDEndpoint.swift */; };
-		53C632222B363E2B00B7EE1A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C632212B363E2B00B7EE1A /* Model.swift */; };
-		53C632242B36408700B7EE1A /* ModelPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C632232B36408700B7EE1A /* ModelPickerViewController.swift */; };
 		53C632262B36573100B7EE1A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C632252B36573100B7EE1A /* HomeViewController.swift */; };
-		53C632282B3658CF00B7EE1A /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C632272B3658CF00B7EE1A /* Watch.swift */; };
-		53C748082B33969800771B50 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C748072B33969800771B50 /* Family.swift */; };
-		53C7480A2B33B3E300771B50 /* BrandPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C748092B33B3E200771B50 /* BrandPickerViewController.swift */; };
-		53C7480C2B33BFF900771B50 /* FamilyPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C7480B2B33BFF800771B50 /* FamilyPickerViewController.swift */; };
+		53C6322B2B37920500B7EE1A /* BrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6322A2B37920500B7EE1A /* BrandCollectionViewCell.swift */; };
+		53C6322F2B38551E00B7EE1A /* BrandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6322E2B38551E00B7EE1A /* BrandListView.swift */; };
+		53C632322B3858A900B7EE1A /* BrandListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C632312B3858A900B7EE1A /* BrandListViewViewModel.swift */; };
+		53C632342B3870ED00B7EE1A /* BrandCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C632332B3870ED00B7EE1A /* BrandCollectionViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5330073D2B337DD800328813 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		53BAD68F2B2E05F200A14761 /* WatchCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BAD6922B2E05F200A14761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53BAD6942B2E05F200A14761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,19 +34,16 @@
 		53BAD69B2B2E05F400A14761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53BAD69E2B2E05F400A14761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53BAD6A02B2E05F400A14761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53BAD6AA2B2E0FF100A14761 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		53BAD6AD2B2FA13500A14761 /* Chrono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrono.swift; sourceTree = "<group>"; };
+		53BAD6AD2B2FA13500A14761 /* Brandname.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brandname.swift; sourceTree = "<group>"; };
 		53BAD6B22B30E8E900A14761 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		53C6321A2B35B11800B7EE1A /* WDRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDRequest.swift; sourceTree = "<group>"; };
 		53C6321C2B35B24200B7EE1A /* WDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDService.swift; sourceTree = "<group>"; };
 		53C6321E2B35B39000B7EE1A /* WDEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDEndpoint.swift; sourceTree = "<group>"; };
-		53C632212B363E2B00B7EE1A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		53C632232B36408700B7EE1A /* ModelPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPickerViewController.swift; sourceTree = "<group>"; };
 		53C632252B36573100B7EE1A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		53C632272B3658CF00B7EE1A /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
-		53C748072B33969800771B50 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
-		53C748092B33B3E200771B50 /* BrandPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandPickerViewController.swift; sourceTree = "<group>"; };
-		53C7480B2B33BFF800771B50 /* FamilyPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyPickerViewController.swift; sourceTree = "<group>"; };
+		53C6322A2B37920500B7EE1A /* BrandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCell.swift; sourceTree = "<group>"; };
+		53C6322E2B38551E00B7EE1A /* BrandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandListView.swift; sourceTree = "<group>"; };
+		53C632312B3858A900B7EE1A /* BrandListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandListViewViewModel.swift; sourceTree = "<group>"; };
+		53C632332B3870ED00B7EE1A /* BrandCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,21 +62,9 @@
 		5330073B2B337DA200328813 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5330073C2B337DB200328813 /* WDModel */,
 				53BAD6AC2B2FA11E00A14761 /* Chrono24 */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		5330073C2B337DB200328813 /* WDModel */ = {
-			isa = PBXGroup;
-			children = (
-				5330073D2B337DD800328813 /* Brand.swift */,
-				53C748072B33969800771B50 /* Family.swift */,
-				53C632212B363E2B00B7EE1A /* Model.swift */,
-				53C632272B3658CF00B7EE1A /* Watch.swift */,
-			);
-			name = WDModel;
 			sourceTree = "<group>";
 		};
 		53BAD6862B2E05F200A14761 = {
@@ -106,10 +86,11 @@
 		53BAD6912B2E05F200A14761 /* WatchCollectionApp */ = {
 			isa = PBXGroup;
 			children = (
+				53C632292B3791E600B7EE1A /* Views */,
+				53C632302B38587A00B7EE1A /* ViewModels */,
 				53BAD6A62B2E060300A14761 /* APIClient */,
 				53BAD6B12B30E88500A14761 /* Controllers */,
 				5330073B2B337DA200328813 /* Model */,
-				53BAD6A92B2E0FE500A14761 /* Constants */,
 				53BAD6922B2E05F200A14761 /* AppDelegate.swift */,
 				53BAD6942B2E05F200A14761 /* SceneDelegate.swift */,
 				53BAD6982B2E05F200A14761 /* Main.storyboard */,
@@ -123,23 +104,15 @@
 		53BAD6A62B2E060300A14761 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				53C632202B35B39E00B7EE1A /* WatchDataBaseAPI */,
+				53C632202B35B39E00B7EE1A /* RetailedAPI */,
 			);
 			path = APIClient;
-			sourceTree = "<group>";
-		};
-		53BAD6A92B2E0FE500A14761 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				53BAD6AA2B2E0FF100A14761 /* Constants.swift */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		53BAD6AC2B2FA11E00A14761 /* Chrono24 */ = {
 			isa = PBXGroup;
 			children = (
-				53BAD6AD2B2FA13500A14761 /* Chrono.swift */,
+				53BAD6AD2B2FA13500A14761 /* Brandname.swift */,
 			);
 			path = Chrono24;
 			sourceTree = "<group>";
@@ -148,22 +121,37 @@
 			isa = PBXGroup;
 			children = (
 				53BAD6B22B30E8E900A14761 /* MainTabBarController.swift */,
-				53C748092B33B3E200771B50 /* BrandPickerViewController.swift */,
-				53C7480B2B33BFF800771B50 /* FamilyPickerViewController.swift */,
-				53C632232B36408700B7EE1A /* ModelPickerViewController.swift */,
 				53C632252B36573100B7EE1A /* HomeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		53C632202B35B39E00B7EE1A /* WatchDataBaseAPI */ = {
+		53C632202B35B39E00B7EE1A /* RetailedAPI */ = {
 			isa = PBXGroup;
 			children = (
 				53C6321C2B35B24200B7EE1A /* WDService.swift */,
 				53C6321A2B35B11800B7EE1A /* WDRequest.swift */,
 				53C6321E2B35B39000B7EE1A /* WDEndpoint.swift */,
 			);
-			path = WatchDataBaseAPI;
+			path = RetailedAPI;
+			sourceTree = "<group>";
+		};
+		53C632292B3791E600B7EE1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53C6322E2B38551E00B7EE1A /* BrandListView.swift */,
+				53C6322A2B37920500B7EE1A /* BrandCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53C632302B38587A00B7EE1A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				53C632312B3858A900B7EE1A /* BrandListViewViewModel.swift */,
+				53C632332B3870ED00B7EE1A /* BrandCollectionViewCellViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,18 +232,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C7480A2B33B3E300771B50 /* BrandPickerViewController.swift in Sources */,
-				53BAD6AB2B2E0FF100A14761 /* Constants.swift in Sources */,
-				53BAD6AE2B2FA13500A14761 /* Chrono.swift in Sources */,
+				53C6322B2B37920500B7EE1A /* BrandCollectionViewCell.swift in Sources */,
+				53C632322B3858A900B7EE1A /* BrandListViewViewModel.swift in Sources */,
+				53BAD6AE2B2FA13500A14761 /* Brandname.swift in Sources */,
 				53C632262B36573100B7EE1A /* HomeViewController.swift in Sources */,
-				5330073E2B337DD800328813 /* Brand.swift in Sources */,
+				53C632342B3870ED00B7EE1A /* BrandCollectionViewCellViewModel.swift in Sources */,
 				53BAD6B32B30E8E900A14761 /* MainTabBarController.swift in Sources */,
-				53C632282B3658CF00B7EE1A /* Watch.swift in Sources */,
-				53C632242B36408700B7EE1A /* ModelPickerViewController.swift in Sources */,
-				53C632222B363E2B00B7EE1A /* Model.swift in Sources */,
+				53C6322F2B38551E00B7EE1A /* BrandListView.swift in Sources */,
 				53C6321F2B35B39000B7EE1A /* WDEndpoint.swift in Sources */,
-				53C748082B33969800771B50 /* Family.swift in Sources */,
-				53C7480C2B33BFF900771B50 /* FamilyPickerViewController.swift in Sources */,
 				53BAD6932B2E05F200A14761 /* AppDelegate.swift in Sources */,
 				53C6321B2B35B11800B7EE1A /* WDRequest.swift in Sources */,
 				53BAD6952B2E05F200A14761 /* SceneDelegate.swift in Sources */,
@@ -419,6 +403,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,6 +432,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

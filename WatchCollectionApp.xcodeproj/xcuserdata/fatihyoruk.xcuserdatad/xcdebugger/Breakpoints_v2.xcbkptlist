@@ -7,126 +7,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3A93CA1D-1C04-4FA3-95CE-387E95536968"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WatchCollectionApp/Controllers/ModelPickerViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "getModelNameData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0F5C73D3-39A6-4AE7-99D5-6BB966419DE9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WatchCollectionApp/Controllers/BrandPickerViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "getBrandData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0F5C73D3-39A6-4AE7-99D5-6BB966419DE9 - ab352eab3cdea476"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;WatchCollectionApp.Brand&gt;, Swift.Error&gt;) -&gt; () in WatchCollectionApp.BrandPickerViewController.getBrandData() -&gt; ()"
-                  moduleName = "WatchCollectionApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/Controllers/BrandPickerViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "0F5C73D3-39A6-4AE7-99D5-6BB966419DE9 - ab352eab3cdea476"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;WatchCollectionApp.Brand&gt;, Swift.Error&gt;) -&gt; () in WatchCollectionApp.BrandPickerViewController.getBrandData() -&gt; ()"
-                  moduleName = "WatchCollectionApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/Controllers/BrandPickerViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "260">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "81B61202-52FA-448C-96BB-7FB31789B379"
+            uuid = "08637376-E942-4DD6-9B0F-DD99F2BAFCCE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WatchCollectionApp/APIClient/WatchDataBaseAPI/WDService.swift"
+            filePath = "WatchCollectionApp/ViewModels/BrandListViewViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "execute(_:brandName:familyName:modelName:excepting:completion:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchBrands(with:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "81B61202-52FA-448C-96BB-7FB31789B379 - ec66e09830fe29cd"
+                  uuid = "08637376-E942-4DD6-9B0F-DD99F2BAFCCE - 9fd73e52f043ebc7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WatchCollectionApp.WDService.execute&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: WatchCollectionApp.WDRequest, brandName: Swift.Optional&lt;Swift.String&gt;, familyName: Swift.Optional&lt;Swift.String&gt;, modelNumber: Swift.Optional&lt;Swift.String&gt;, excepting: &#x3c4;_0_0.Type, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;WatchCollectionApp.Brandname&gt;, Swift.Error&gt;) -&gt; () in WatchCollectionApp.BrandListViewViewModel.fetchBrands(with: Swift.String) -&gt; ()"
                   moduleName = "WatchCollectionApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/APIClient/WatchDataBaseAPI/WDService.swift"
+                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/ViewModels/BrandListViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "1144">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "108">
                </Location>
                <Location
-                  uuid = "81B61202-52FA-448C-96BB-7FB31789B379 - ec66e09830fe2941"
+                  uuid = "08637376-E942-4DD6-9B0F-DD99F2BAFCCE - 9fd73e52f043ebc7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WatchCollectionApp.WDService.execute&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: WatchCollectionApp.WDRequest, brandName: Swift.Optional&lt;Swift.String&gt;, familyName: Swift.Optional&lt;Swift.String&gt;, modelNumber: Swift.Optional&lt;Swift.String&gt;, excepting: &#x3c4;_0_0.Type, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;WatchCollectionApp.Brandname&gt;, Swift.Error&gt;) -&gt; () in WatchCollectionApp.BrandListViewViewModel.fetchBrands(with: Swift.String) -&gt; ()"
                   moduleName = "WatchCollectionApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/APIClient/WatchDataBaseAPI/WDService.swift"
+                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/ViewModels/BrandListViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "1652">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "132">
                </Location>
                <Location
-                  uuid = "81B61202-52FA-448C-96BB-7FB31789B379 - 1a76296794a5ac7a"
+                  uuid = "08637376-E942-4DD6-9B0F-DD99F2BAFCCE - 9fd73e52f043ebc7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WatchCollectionApp.WDService.execute&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: WatchCollectionApp.WDRequest, brandName: Swift.Optional&lt;Swift.String&gt;, familyName: Swift.Optional&lt;Swift.String&gt;, modelName: Swift.Optional&lt;Swift.String&gt;, excepting: &#x3c4;_0_0.Type, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;WatchCollectionApp.Brandname&gt;, Swift.Error&gt;) -&gt; () in WatchCollectionApp.BrandListViewViewModel.fetchBrands(with: Swift.String) -&gt; ()"
                   moduleName = "WatchCollectionApp"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/APIClient/WatchDataBaseAPI/WDService.swift"
+                  urlString = "file:///Users/fatihyoruk/Desktop/WatchCollectionApp/WatchCollectionApp/ViewModels/BrandListViewViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "1652">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "164">
                </Location>
             </Locations>
          </BreakpointContent>
