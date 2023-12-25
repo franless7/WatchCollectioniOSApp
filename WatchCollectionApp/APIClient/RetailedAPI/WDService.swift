@@ -20,37 +20,9 @@ final class WDService {
     
     public func execute<T: Codable>(
         _ request: WDRequest,
-        brandName: String? = nil,
-        familyName: String? = nil,
-        modelName: String? = nil,
         excepting type: T.Type,
         completion: @escaping (Result<T, Error>) -> Void
     ) {
-        
-        switch request.endpoint {
-            
-            case .allbrands:
-                break
-            case .allfamily:
-                if let brandName = brandName {
-                    request.brandName = brandName
-                }
-            case .allmodels:
-                if let brandName = brandName, let familyName = familyName {
-                    request.brandName = brandName
-                    request.familyName = familyName
-                }
-            case .allwatches:
-                if let brandName = brandName, let familyName = familyName, let modelName = modelName {
-                    request.brandName = brandName
-                    request.familyName = familyName
-                    request.modelName = modelName
-                }
-            default:
-                    print("error")
-                break
-        }
-        
         
         guard let urlRequest = self.request(from: request) else {
             completion(.failure(WDServiceError.failedToCreateRequest))
@@ -84,7 +56,8 @@ final class WDService {
         )
         
         request.httpMethod = wdRequest.httpMethod
-        request.allHTTPHeaderFields = wdRequest.headers
+        request.setValue(wdRequest.applicationJson, forHTTPHeaderField: wdRequest.contentType)
+        request.setValue(wdRequest.apiKey, forHTTPHeaderField: wdRequest.xApiKey)
         
         return request
     }
